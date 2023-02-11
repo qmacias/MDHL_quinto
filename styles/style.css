@@ -13,6 +13,52 @@ body {
     line-height: 1.2;
 }
 
+main, header, figure, nav, section, article, footer, h1, h2 {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+main {
+    background-color: darkseagreen;
+}
+
+header {
+    background-color: yellowgreen;
+}
+
+nav {
+    background-color: burlywood;
+}
+
+figure {
+    background-color: aquamarine;
+}
+
+section {
+    background-color: cornflowerblue;
+}
+
+article {
+    background-color: plum;
+}
+
+h1 {
+    background-color: coral;
+}
+
+h2 {
+    background-color: darkcyan;
+}
+
+footer {
+    background-color: darkgrey;
+}
+
 img {
     height: 100px;
+}
+
+#logo {
+
 }
