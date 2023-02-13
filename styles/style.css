@@ -13,7 +13,7 @@ body {
     line-height: 1.2;
 }
 
-main, header, figure, nav, section, article, footer, h1, h2 {
+main, header, figure, nav, div, section, article, footer, h1, h2 {
     border: 2px solid black;
     margin: 5px;
     padding: 5px;
@@ -27,12 +27,29 @@ header {
     background-color: yellowgreen;
 }
 
+div {
+    /* position: relative; */
+}
+
+div figure {
+    /* position: absolute;
+    right: 2px;
+    top: 0px; */
+    object-fit: contain;
+}
+
+div h2 {
+    display: inline-block;
+    vertical-align: top;
+}
+
 nav {
     background-color: burlywood;
 }
 
 figure {
     background-color: aquamarine;
+    display: inline-block;
 }
 
 section {
@@ -56,9 +73,8 @@ footer {
 }
 
 img {
-    height: 100px;
+    height: 80px;
 }
 
 #logo {
-
 }
