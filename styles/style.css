@@ -33,7 +33,15 @@ main {
 }
 
 header {
-    background-color: yellowgreen;
+    background-image: url('../assets/images/design1_image1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 400px;
+}
+
+a {
+    display: block;
 }
 
 .container {
@@ -94,5 +102,3 @@ footer {
 img {
     height: 80px;
 }
-
-#logo {}
